@@ -97,12 +97,20 @@ nav {
 }
 
 .logo {
-  font-size: 1.2rem;
-  font-weight: 800;
-  color: var(--primary);
-  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
 }
-.logo span { color: var(--accent); }
+.logo-img {
+  height: 36px;
+  width: auto;
+}
+.logo-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #B87333;
+}
 
 .nav-links {
   display: flex;
