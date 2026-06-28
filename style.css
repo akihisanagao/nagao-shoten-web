@@ -93,7 +93,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 68px;
+  height: 80px;
 }
 
 .logo {
@@ -103,7 +103,7 @@ nav {
   text-decoration: none;
 }
 .logo-img {
-  height: 36px;
+  height: 80px;
   width: auto;
 }
 .logo-text {
